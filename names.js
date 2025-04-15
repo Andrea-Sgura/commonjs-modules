@@ -1,8 +1,8 @@
 // Definizione di funzione
 function person(firstName, lastName){
     return {
-        firstName: Paolo,
-        lastName: Bianchi
+        firstName,
+        lastName,
     };
 };
 
