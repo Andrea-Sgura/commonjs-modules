@@ -1,5 +1,5 @@
 // Definizione di funzione
-function person(firstName, lastName){
+function getFullName(firstName, lastName){
     return {
         firstName,
         lastName,
@@ -7,4 +7,4 @@ function person(firstName, lastName){
 };
 
 // Esporto la funzione
-module.exports = person;
+module.exports = getFullName;

@@ -1,13 +1,13 @@
 // Importo le funzioni
-const firstFunction = require(`./names.js`);
-const secondFunction = require(`./hobbies.js`);
+const getFullName = require(`./names.js`);
+const getHobbies = require(`./hobbies.js`);
 
 // Utilizzo le funzioni
 const getInfo = () => {
     return {
-        person : firstFunction (`Andrea`, `Sgura`),
-        hobbyList : secondFunction (`VideoGames`, `Film`, `Serie tv`)
+        fullName: getFullName(`Andrea`, `Sgura`),
+        hobbies: getHobbies(`videogames`, `cucina`, `serie tv`)
     };
 };
 
-console.log(getInfo);
+console.log(getInfo());
